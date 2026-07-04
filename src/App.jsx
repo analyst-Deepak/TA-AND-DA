@@ -49,7 +49,7 @@ const App = () => {
   const login = async (username, password) => {
     try {
       const masterSheetUrl =
-        `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/gviz/tq?tqx=out:json&sheet=Master`;
+        `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/gviz/tq?tqx=out:json&sheet=Master&headers=1`;
       const response = await fetch(masterSheetUrl);
       const text = await response.text();
 
