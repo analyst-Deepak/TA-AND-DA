@@ -119,12 +119,13 @@ function Sidebar({ userType, username, tabs = [] }) {
       >
         {/* Header */}
         <div className="flex items-center justify-between h-16 px-4 border-b border-slate-200/50 flex-shrink-0">
-          <h1
-            className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-blue-600 to-indigo-600 text-xl 
-               w-full text-center lg:text-left"
-          >
-            {isCollapsed ? "PPPL" : "PPPL"}
-          </h1>
+          <div className="flex items-center justify-center lg:justify-start w-full">
+            <img
+              src="https://i.ibb.co/Wp50nGtJ/Whats-App-Image-2026-10-05-at-4-35-02-PM.jpg"
+              alt="Logo"
+              className="h-10 max-h-12 w-auto object-contain rounded-md"
+            />
+          </div>
 
           {/* Close button: visible only on mobile */}
           <button

@@ -43,8 +43,12 @@ function Login() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-slate-50 to-slate-100 p-4">
       <div className="w-full max-w-md">
-        <div className="text-center mb-10">
-          
+        <div className="text-center mb-8 flex flex-col items-center">
+          <img
+            src="https://i.ibb.co/Wp50nGtJ/Whats-App-Image-2026-10-05-at-4-35-02-PM.jpg"
+            alt="Logo"
+            className="h-16 w-auto object-contain mb-3 rounded-lg shadow-sm"
+          />
           <p className="text-slate-600">Sign in to access your dashboard</p>
         </div>
 
