@@ -30,7 +30,7 @@ const Travel = () => {
   const APPS_SCRIPT_URL =
     "https://script.google.com/macros/s/AKfycbwP-FjAhA8Eg7QgkpFqnMGqYkOfQXYbFRXnlxl11Pisxjdlm-g3_LUdatn4trVAMBXd-g/exec";
 
-  const DRIVE_FOLDER_ID = "1QAxpUr5L4UMjgTpazbFj8lWzFvf_Y4Sz";
+  const DRIVE_FOLDER_ID = "1SD-KptmSQ7KFPlHjdYQYjmFLu63QVRZG";
 
   const checkPendingOutFromServer = async () => {
     try {
