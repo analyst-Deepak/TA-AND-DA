@@ -30,7 +30,7 @@ const App = () => {
   const [tabs, setTabs] = useState([]);
 
   // Spreadsheet ID for Google Sheets data
-  const SPREADSHEET_ID = "1WTT8ZQhtf1yeSChNn2uJeW5Tz2TvYjQLrxhTx5l4Fgw";
+  const SPREADSHEET_ID = "1kZgNFm9aNgWAEl2ug0SrYW1vSCCv0h8D7rD7nhhM6q8";
 
   useEffect(() => {
     const auth = localStorage.getItem("isAuthenticated");
@@ -283,15 +283,7 @@ const App = () => {
 
               <footer className=" fixed bottom-0 left-0 w-full bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 text-white text-center py-3 shadow-inner z-50">
                 <p className="text-sm font-medium">
-                  Powered by{" "}
-                  <a
-                    href="https://www.botivate.in/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline hover:text-yellow-300 transition"
-                  >
-                    Botivate
-                  </a>
+                  Powered by Deepak Sahu
                 </p>
               </footer>
             </div>
